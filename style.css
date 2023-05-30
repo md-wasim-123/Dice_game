@@ -22,6 +22,9 @@ font-size: 30px;
   background-image: url('./image/bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+ display: flex;
+  align-items: center;
+  flex-direction: column;
 
 }
 #dice_area1 h2{
@@ -31,15 +34,13 @@ font-size: 30px;
   
 }
 #dice_area1{
-  display:inline-block;
-  margin:10px 45px;
+  margin:10px 30px;
   text-align:center;
 }
 
 
 #dice_area2{ 
-  display:inline-block;
-  margin:10px 45px;
+  margin:10px 30px;
   text-align:center;
 }
 #dice_area2 h2{
@@ -53,9 +54,6 @@ img{
   width:250px;
 }
 .btn{
-  position: absolute;
-  top:19rem;
-  left:60rem;
   width:140px;
   height:40px;
   border-radius:10px;
